@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: travel-search-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python app.py"
+    region: oregon
+    branch: main
+    numInstances: 1
